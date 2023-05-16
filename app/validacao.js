@@ -2,7 +2,17 @@ function verificaChute(chute) {
   const numero = +chute;
 
   if (chuteInvalido(numero)) {
-    elementoChute.innerHTML += "<div> Valor Invalido </div>";
+    elementoChute.innerHTML += "<div> Valor Inválido </div>";
+    if (chute.toUpperCase() === "GAME OVER") {
+      document.body.innerHTML = `
+          <h2>Game Over!!!</h2>
+          <h3>Pressione o botão para jogar novamente</h3>
+          <button id="jogar-denovo" class="btn-jogar" >Jogar novamente</button>
+          `;
+      document.body.style.backgroundColor = "black";
+    } else {
+      elementoChute.innerHTML += "<div>Valor Inválido</div>";
+    }
     return;
   }
 
@@ -39,6 +49,7 @@ function chuteInvalido(numero) {
   return Number.isNaN(numero);
 }
 
+// adiciona um evento ao botao, faz a tela ser recarregada ao clicar
 document.body.addEventListener("click", (e) => {
   if (e.target.id == "jogar-denovo") {
     window.location.reload();
