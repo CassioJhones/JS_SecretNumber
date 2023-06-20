@@ -1,5 +1,6 @@
 # JS_SecretNumber
-> O jogador precisa adivinhar o número secreto escolhido aleatoriamente dentro de um intervalo específico.
+> https://js-secret-number.vercel.app/
+>> O jogador precisa adivinhar o número secreto escolhido aleatoriamente dentro de um intervalo específico.
 
 ## Instruções
 
