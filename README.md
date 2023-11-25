@@ -1,7 +1,6 @@
 # JS_SecretNumber
 > https://js-secret-number.vercel.app/
->> O jogador precisa adivinhar o número secreto escolhido aleatoriamente dentro de um intervalo específico.
-
+>> O jogador precisa adivinhar o número secreto escolhido aleatoriamente
 ## Instruções
 
 1. Abra o arquivo `index.html` em um navegador da web.
@@ -28,7 +27,7 @@ O projeto consiste nos seguintes arquivos:
 
 ## Desenvolvedor
 
-Este projeto foi desenvolvido por Cássio Jhones.
+Projeto foi desenvolvido por Cássio Jhones. Durante treinamento da Alura
 
 ---
 
@@ -36,9 +35,10 @@ Para executar o jogo corretamente, certifique-se de ter uma conexão ativa com a
 
 Divirta-se tentando adivinhar o número secreto!
 
-A API de voz utilizada no projeto é a Web Speech API, que é uma API do navegador que permite o reconhecimento de voz e síntese de fala. Essa API permite que o desenvolvedor crie aplicativos web interativos que respondam à voz do usuário.
+A API de voz utilizada no projeto é a **Web Speech API**, que é uma API do navegador que permite o reconhecimento de voz e síntese de fala. Essa API permite que o desenvolvedor crie aplicativos web interativos que respondam à voz do usuário.
 
-A Web Speech API é padronizada pelo World Wide Web Consortium (W3C) e suportada por navegadores modernos, como o Google Chrome e o Mozilla Firefox. Ela consiste em duas partes principais: Reconhecimento de Fala (Speech Recognition) e Síntese de Fala (Speech Synthesis).
+A Web Speech API é padronizada pelo **World Wide Web Consortium (W3C)** e suportada por navegadores modernos, como o Google Chrome e o Mozilla Firefox.
+Ela consiste em duas partes principais: **Reconhecimento de Fala (Speech Recognition) e Síntese de Fala (Speech Synthesis).**
 
 No projeto, a funcionalidade de reconhecimento de fala da Web Speech API é utilizada para capturar a entrada de voz do jogador. Aqui está como ela é usada no código:
 
