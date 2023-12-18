@@ -2,7 +2,10 @@
 > https://js-secret-number.vercel.app/
 >> O jogador precisa adivinhar o número secreto escolhido aleatoriamente
 
-![GitHub repo size](https://img.shields.io/github/repo-size/CassioJhones/JS_SecretNumber?style=for-the-badge&label=Project%20Size&labelColor=%23512BD4) 
+![GitHub repo size](https://img.shields.io/github/repo-size/CassioJhones/JS_SecretNumber?style=for-the-badge&label=Project%20Size&labelColor=%23512BD4)
+![VS_CODE](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
+
 ## Instruções
 
 1. Abra o arquivo `index.html` em um navegador da web.
